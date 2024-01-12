@@ -2,9 +2,11 @@
 import Try from "./try.jsx"
 
 function App() {
-
+  const userName = "sachin"
   return (
-    <Try/>
+    <>
+    <h1>Hello from Vite React to user: {userName}</h1>
+    </>
   )
 }
 // So only .jsx works as component in vite react
