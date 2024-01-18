@@ -12,7 +12,8 @@ function App() {
     if(counter<=19)
     {
       setCounter(counter=>counter+1);
-      setCounter(counter=>counter+1);;
+      // setCounter(counter=>counter+1);
+
       // setCounter(counter+1);
       // setCounter(counter+1);
       
@@ -29,7 +30,7 @@ function App() {
 
   return (
     <>
-      <h1>React is a Library</h1>
+      <h1>React is an amazing Library</h1>
       <h2>Counter value:{counter}</h2>
       <button
       onClick={addValue}
